@@ -66,7 +66,7 @@ int main(int argc, const char **argv)
     
     if(cin_error || pos_range_error || neg_range_error) {
         std::cout << "Error! Only numbers between 0 and 100 are allowed." << std::endl;
-        std::cout << "Using defaul coordinates..." << std::endl;
+        std::cout << "Using default coordinates..." << std::endl;
         start_x = 10;
         start_y = 10;
         end_x = 90;
